@@ -1,0 +1,34 @@
+@import "variables";
+@import "reset";
+
+html {
+    background: $pink;
+}
+
+.container {
+    margin: auto 1em;
+}
+
+nav {
+    position: absolute;
+    bottom: 0;
+
+    width: 100%;
+    height: $nav-height;
+
+    border-top: 1px solid black;
+}
+
+#posts {
+    .post {
+        .post-message {
+            margin-bottom: $shadow-bottom;
+
+            background: $white;
+
+            -webkit-box-shadow: $shadow-right $shadow-bottom 0px 0px $red;
+            -moz-box-shadow: $shadow-right $shadow-bottom 0px 0px $red;
+            box-shadow: $shadow-right $shadow-bottom 0px 0px $red;
+        }
+    }
+}

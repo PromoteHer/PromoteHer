@@ -1,0 +1,19 @@
+{
+    "name": "promote-her-api",
+    "description": "Promote Her is a platform for shouting out loud achievements by women in the advertising industry",
+    "version": "0.0.1",
+    "private": true,
+    "license": "SEE LICENSE IN <LICENSE>",
+    "author": {
+        "name": "Jamie Poole",
+        "url": "https://www.jamiepoole.me"
+    },
+    "dependencies": {
+        "body-parser": "^1.18.3",
+        "express": "^4.16.3",
+        "method-override": "^2.3.10",
+        "mongoose": "^5.1.1",
+        "morgan": "~1.2.2"
+    },
+    "main": "server.js"
+}
