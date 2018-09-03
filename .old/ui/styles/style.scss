@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Karla:400,700');
+@import "variables";
+@import "reset";
+
+html {
+    background: $illusion;
+    font-family: $body-font;
+}
+
+.container {
+    margin: auto 1em;
+}
+
+nav {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    height: $nav-height;
+
+    border-top: 1px solid $black;
+}
+
+#posts {
+    .post {
+        .post-message {
+            margin-bottom: $shadow-bottom;
+
+            background: $white;
+
+            -webkit-box-shadow: $shadow-right $shadow-bottom 0px 0px $monza;
+            -moz-box-shadow: $shadow-right $shadow-bottom 0px 0px $monza;
+            box-shadow: $shadow-right $shadow-bottom 0px 0px $monza;
+        }
+    }
+}
